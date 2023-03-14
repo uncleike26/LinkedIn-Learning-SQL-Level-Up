@@ -4,7 +4,7 @@
 -- attendance, and will bring 3 friends.
 
 INSERT INTO AnniversaryAttendees(CustomerID, PartySize)
-SELECT CustomerId, 3 AS PartySize
+SELECT CustomerId, 4 AS PartySize
 FROM Customers
 WHERE Email = 'atapley2j@kinetecoinc.com';
 
